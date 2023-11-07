@@ -6,7 +6,7 @@ public class ArrayShuffle {
 
     }
     public static int[] shuffle(int[] nums, int n) {
-        int[] newArray = new int[nums.length];
+        int[] newArray = new int[n];
         for(int i = 0; i < nums.length; i++){
             newArray[i] = nums[(int)(Math.random()*10)];
         }
